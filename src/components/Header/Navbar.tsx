@@ -35,9 +35,11 @@ export default function Navbar() {
         }}
       >
         <AppContainer>
-          <Toolbar 
+          <Toolbar
+            disableGutters 
             sx={{
-              justifyContent: {xs: 'space-between', md: 'flex-start'} 
+              width: "100%",
+              justifyContent: {xs: 'space-between', md: 'flex-start'},
             }}
           >
             <Typography 
