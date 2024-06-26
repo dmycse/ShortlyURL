@@ -1,7 +1,8 @@
-import { CssBaseline, Stack } from "@mui/material";
+import { CssBaseline } from "@mui/material";
 import Navbar from "../Header/Navbar";
 import Hero from "../Hero/Hero";
 import Form from "../Form/Form";
+import Feature from "../Features/Feature";
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Form />
+      <Feature />
     </>
   )
 }
