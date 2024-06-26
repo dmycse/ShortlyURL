@@ -12,11 +12,7 @@ export default function Form() {
         backgroundSize: "cover"
       }}
     >
-      <AppContainer
-        sx={{
-          px: {xs: "calc(0.8rem + 24px)", md: "calc(6.25rem + 24px)"}
-        }}
-      >
+      <AppContainer>
         <Box
           component="form"
           autoComplete="off"
